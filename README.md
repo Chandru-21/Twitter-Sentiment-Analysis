@@ -5,10 +5,13 @@ Predicting the sentiment of various tweets in an hashtag using text analytics te
 
 DATA:
 Getting data without using API -- TwitterScrapper Library
+
 Then query tweets from an Hashtag eg,
 
 from twitterscraper import query_tweets
+
 lang='english'
+
 tweets=query_tweets("Covid19",begindate=begin_date,enddate=end_date,limit=limit,lang=lang)
 
 PREPROCESSING:
